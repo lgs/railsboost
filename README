@@ -1,10 +1,13 @@
 == Rails Boost ==
 
-Rails boost is a very simple project based around making it very, very
-easy to create templates for your Rails 2.3.1+ projects.
+Here is actualy my first attempt to port the entire app on Rails3 beta3.
+Still not fully working ... but is a start ;-)
 
-Stop bootstrapping manually. Stop using old pulls of Rails. Start being
-more productive.
+>>Rails boost is a very simple project based around making it very, very
+>>easy to create templates for your Rails 2.3.1+ projects.
+
+>>Stop bootstrapping manually. Stop using old pulls of Rails. Start being
+>>more productive.
 
 == Developing ==
 
