@@ -2,6 +2,8 @@
 
 Here is actualy my first attempt to port the entire app on Rails3 beta3.
 Still not fully working ... but is a start ;-)
+ 
+   dont forget to "bundle install", after "git clone git@github.com:lgs/railsboost.git"
 
 >>Rails boost is a very simple project based around making it very, very
 >>easy to create templates for your Rails 2.3.1+ projects.
@@ -11,11 +13,11 @@ Still not fully working ... but is a start ;-)
 
 == Developing ==
 
-0) Get the code from http://github.com/hcatlin/railsboost/tree/master
-1) Migrate the DB
-2) Execute `rake commands:load` which grabs all of the commands from the remote server
-3) Read the TODO file
-4) Start hacking!
+1) git clone git@github.com:lgs/railsboost.git
+2) bundle install
+3) rake db:migrate
+4) rake commands:load ( which grabs all of the commands from the remote server )
+5) rails s
 
 == Authorship ==
 
