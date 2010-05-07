@@ -8,7 +8,6 @@ source 'http://rubygems.org'
       gem 'rack-test'
       gem 'sqlite3-ruby', :require => 'sqlite3'
 
-      gem "authlogic", :git => 'git://github.com/odorcicd/authlogic.git', :branch => "rails3" 
+      gem 'authlogic', :git => 'git://github.com/odorcicd/authlogic.git', :branch => "rails3" 
+      gem 'haml', '3.0.0.rc.4', :git => 'http://github.com/nex3/haml.git'
       gem 'acts-as-taggable-on', '2.0.0.pre1'
-      gem 'haml', '3.0.0.rc.3', :git => 'http://github.com/nex3/haml.git'
-
