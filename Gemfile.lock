@@ -1,0 +1,137 @@
+--- 
+dependencies: 
+  rails: 
+    group: 
+    - :default
+    version: = 3.0.0.beta3
+  authlogic: 
+    group: 
+    - :default
+    version: ">= 0"
+  sqlite3-ruby: 
+    group: 
+    - :default
+    version: ">= 0"
+    require: 
+    - sqlite3
+  haml: 
+    group: 
+    - :default
+    version: = 3.0.0.rc.4
+  acts-as-taggable-on: 
+    group: 
+    - :default
+    version: ">= 0"
+  rack: 
+    group: 
+    - :default
+    version: = 1.1.0
+  rack-mount: 
+    group: 
+    - :default
+    version: ">= 0"
+  rack-test: 
+    group: 
+    - :default
+    version: ">= 0"
+specs: 
+- rake: 
+    version: 0.8.7
+- abstract: 
+    version: 1.0.0
+- builder: 
+    version: 2.1.2
+- i18n: 
+    version: 0.4.0.beta1
+- memcache-client: 
+    version: 1.8.3
+- tzinfo: 
+    version: 0.3.20
+- activesupport: 
+    version: 3.0.0.beta3
+    source: 3
+- activemodel: 
+    version: 3.0.0.beta3
+    source: 3
+- erubis: 
+    version: 2.6.5
+- rack: 
+    version: 1.1.0
+    source: 2
+- rack-mount: 
+    version: 0.6.3
+- rack-test: 
+    version: 0.5.3
+- actionpack: 
+    version: 3.0.0.beta3
+    source: 3
+- mime-types: 
+    version: "1.16"
+- polyglot: 
+    version: 0.3.1
+- treetop: 
+    version: 1.4.5
+- mail: 
+    version: 2.2.0
+- text-hyphen: 
+    version: 1.0.0
+- text-format: 
+    version: 1.0.0
+- actionmailer: 
+    version: 3.0.0.beta3
+    source: 3
+- arel: 
+    version: 0.3.3
+- activerecord: 
+    version: 3.0.0.beta3
+    source: 3
+- activeresource: 
+    version: 3.0.0.beta3
+    source: 3
+- acts-as-taggable-on: 
+    version: 2.0.5
+- authlogic: 
+    version: 2.1.3
+    source: 1
+- bundler: 
+    version: 0.9.25
+- haml: 
+    version: 3.0.0.rc.4
+    source: 0
+- thor: 
+    version: 0.13.6
+- railties: 
+    version: 3.0.0.beta3
+    source: 3
+- rails: 
+    version: 3.0.0.beta3
+    source: 3
+- sqlite3-ruby: 
+    version: 1.2.5
+hash: e9f793815b0208d62d8de0213b8d3fb5cb3a33d4
+sources: 
+- Git: 
+    name: haml
+    uri: http://github.com/nex3/haml.git
+    version: 3.0.0.rc.4
+    git: http://github.com/nex3/haml.git
+    ref: bf41898e0bacce1dfd53d5dabf24cd3c2c256e68
+- Git: 
+    uri: git://github.com/odorcicd/authlogic.git
+    branch: rails3
+    git: git://github.com/odorcicd/authlogic.git
+    ref: a087ad0cba3c165ba22fcf176c28b6f7517931e8
+- Git: 
+    name: rack
+    uri: git://github.com/rails/rack.git
+    version: 1.1.0
+    git: git://github.com/rails/rack.git
+    ref: c6805fb93da30e0056b38e0fa6015c3d1bca5876
+- Git: 
+    name: rails
+    uri: git://github.com/rails/rails.git
+    version: 3.0.0.beta3
+    git: git://github.com/rails/rails.git
+    ref: 9aaef5935660ba13531512fb7def4b8bdf14511d
+- Rubygems: 
+    uri: http://rubygems.org
